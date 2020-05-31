@@ -1,0 +1,29 @@
+@import '../variables/default.scss';
+@import '../mixins/index.scss';
+
+.mie-hx {
+  font-weight: bolder;
+
+  &--1 {
+    font-size: $font-size-base * 2;
+  }
+
+  &--2 {
+    font-size: $font-size-base * 1.5;
+  }
+
+  &--3 {
+    font-size: $font-size-base * 1.17;
+  }
+
+  &--4 {
+  }
+
+  &--5 {
+    font-size: $font-size-base * .83;
+  }
+
+  &--6 {
+    font-size: $font-size-base * .75;
+  }
+}

@@ -7187,6 +7187,11 @@ number-is-nan@^1.0.0:
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
+number-magic@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/number-magic/-/number-magic-1.1.1.tgz#4fdd77c317d30791801ce0f8c409f9e3378753f2"
+  integrity sha512-o4TI4pjLkcq6LJz9atJWfq3b8GYnwvWiby4m9SE9SBbUo5sksL16uZFQ5SeM1VgWqi8DFQMDmp0OZCUkfhN+DA==
+
 oauth-sign@~0.9.0:
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/oauth-sign/-/oauth-sign-0.9.0.tgz#47a7b016baa68b5fa0ecf3dee08a85c679ac6455"
