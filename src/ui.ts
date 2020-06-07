@@ -1,7 +1,5 @@
-// 组件库入口
+// ui构建入口
 import Taro from '@tarojs/taro'
-
-import './styles/index.scss'
 
 Taro.initPxTransform({ designWidth: 750, deviceRatio: {} })
 

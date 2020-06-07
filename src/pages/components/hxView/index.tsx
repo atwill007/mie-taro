@@ -1,7 +1,7 @@
 import { ComponentType } from 'react'
 import Taro, { Component } from '@tarojs/taro'
 import { View } from '@tarojs/components'
-import { MieHx } from '../../../index'
+import { MieHx } from '@mie-taro'
 
 import './index.less'
 

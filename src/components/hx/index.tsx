@@ -49,10 +49,13 @@ export default class MieHx extends BaseComponent<
 
 MieHx.defaultProps = {
   size: 3,
-  onClick: () => {}
+  onClick: () => {},
+  customStyle: {}
 }
 
 MieHx.propTypes = {
   size: PropTypes.oneOf(idxList(6, 1)),
-  onClick: PropTypes.func
+  onClick: PropTypes.func,
+  className: PropTypes.any,
+  customStyle: PropTypes.object
 }

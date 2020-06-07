@@ -22,7 +22,12 @@
     "typeRoots": [
       "node_modules/@types",
       "global.d.ts"
-    ]
+    ],
+    "paths": {
+      "@mie-taro": [
+        "src/index.ts"
+      ]
+    }
   },
   "exclude": [
     "node_modules",
