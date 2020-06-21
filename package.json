@@ -1,6 +1,6 @@
 {
   "name": "mie-taro",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "mie ui for taro",
   "main": "dist/index.js",
   "main:h5": "dist/h5/index.js",
