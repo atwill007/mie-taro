@@ -33,16 +33,28 @@ export default class MieHx extends BaseComponent<
 
     const hxClassName = `mie-hx mie-hx--${size}`
 
-    const TagStr = this.state.isWEB ? `h${size}` : View
+    if (this.state.isWEB) {
+      const WebTag: any = `h${size}`
+
+      return (
+        <WebTag
+          className={classNames(hxClassName, this.props.className)}
+          style={this.props.customStyle}
+          onClick={this.onClick}
+        >
+          {this.props.children}
+        </WebTag>
+      )
+    }
 
     return (
-      <TagStr
+      <View
         className={classNames(hxClassName, this.props.className)}
         style={this.props.customStyle}
         onClick={this.onClick}
       >
         {this.props.children}
-      </TagStr>
+      </View>
     )
   }
 }
