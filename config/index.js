@@ -11,6 +11,7 @@ const config = {
   },
   sourceRoot: 'src',
   outputRoot: 'dist',
+  plugins: ['@tarojs/plugin-sass', '@tarojs/plugin-less'],
   babel: {
     sourceMap: true,
     presets: [
