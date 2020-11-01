@@ -3,6 +3,7 @@ import Taro, { Component, Config } from '@tarojs/taro'
 import { View, Button, Text } from '@tarojs/components'
 import { observer, inject } from '@tarojs/mobx'
 import HxView from '../components/hxView'
+import RichTextView from '../components/rich-text-view'
 
 import './index.less'
 
@@ -73,6 +74,8 @@ class Index extends Component {
         <Text>{counter}</Text>
 
         <HxView />
+
+        <RichTextView />
       </View>
     )
   }
