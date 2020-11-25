@@ -41,6 +41,11 @@ const config = {
     '@mie-taro': path.resolve(__dirname, '../src/index.ts')
   },
   mini: {
+    copy: {
+      patterns: [
+        { from: 'src/components/rich-text/parser/', to: 'dist/weapp/components/rich-text/parser/' }, // 指定需要 copy 的目录
+      ]
+    },
     postcss: {
       autoprefixer: {
         enable: true,
