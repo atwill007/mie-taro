@@ -69,10 +69,10 @@
 		"regenerator-runtime": "0.11.1"
 	},
 	"devDependencies": {
-		"@tarojs/mini-runner": "2.2.15",
+		"@tarojs/mini-runner": "3.5.11",
 		"@tarojs/plugin-less": "^2.2.10",
 		"@tarojs/plugin-sass": "^2.2.10",
-		"@tarojs/webpack-runner": "2.2.15",
+		"@tarojs/webpack-runner": "3.5.11",
 		"@types/react": "^16.4.6",
 		"@types/webpack-env": "^1.13.6",
 		"@typescript-eslint/eslint-plugin": "^2.13.0",
